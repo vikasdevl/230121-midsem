@@ -1,0 +1,141 @@
+{
+  "student_metadata": {
+    "name": "Eranki Sai Vikas",
+    "roll_number": "230121",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination",
+    "part": "Part A",
+    "submission_date": "2026-03-01"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "Grok",
+      "model": "Grok 4",
+      "provider": "xAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-01",
+      "tool_name": "Grok",
+      "model": "Grok 4",
+      "purpose": "Finding a suitable research paper",
+      "prompt": "Based on the rules given in the document, can you suggest some papers that are easier to understand, interesting to learn from, and also relevant to real-world or industry applications?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "It helped me quickly discover a few suitable papers that matched the requirements and gave me a starting point for selection.",
+      "student_verification": "I checked each suggested paper myself by reading abstracts and verifying publication details from official sources.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-01",
+      "tool_name": "Grok",
+      "model": "Grok 4",
+      "purpose": "Checking if my chosen paper was a good choice",
+      "prompt": "Is the paper 'Pairwise Support Vector Machines and their Application to Large Scale Problems' a good choice for my assignment in terms of understanding and implementation?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "It helped me understand whether the paper was practical to work on and whether it met assignment expectations.",
+      "student_verification": "I confirmed details directly from the paper and ensured it matched the eligibility criteria mentioned in the exam document.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-01",
+      "tool_name": "Grok",
+      "model": "Grok 4",
+      "purpose": "Understanding reproducibility difficulty",
+      "prompt": "Will it be difficult to reproduce this method using only a laptop without GPU?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "It gave me practical ideas for simplifying experiments so that they could run on limited hardware.",
+      "student_verification": "I tested a small example locally to confirm that the suggested simplifications were feasible.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 4,
+      "date": "2026-03-01",
+      "tool_name": "Grok",
+      "model": "Grok 4",
+      "purpose": "Understanding a difficult concept in the paper",
+      "prompt": "Can you explain balanced kernels in pairwise SVMs in a simple way so I can understand the main idea?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "It helped me understand the intuition behind the concept before I read the detailed equations.",
+      "student_verification": "I confirmed the explanation by carefully reading the relevant sections of the research paper.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 5,
+      "date": "2026-03-01",
+      "tool_name": "Grok",
+      "model": "Grok 4",
+      "purpose": "Analyzing limitations of the method",
+      "prompt": "What are some assumptions, limitations, or situations where pairwise SVM might not work well?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "It helped me think critically about the method instead of just understanding its advantages.",
+      "student_verification": "I validated these points by checking the discussion and experimental sections of the paper.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 6,
+      "date": "2026-03-01",
+      "tool_name": "Grok",
+      "model": "Grok 4",
+      "purpose": "Planning implementation",
+      "prompt": "How can I implement a simple version of pairwise SVM using scikit-learn so that it runs on a normal laptop?",
+      "llm_response_used": "Yes",
+      "how_it_helped": "It helped me plan a realistic approach for implementation within my available resources.",
+      "student_verification": "I cross-checked the suggested steps with official documentation and created my own implementation plan.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 7,
+      "date": "2026-03-01",
+      "tool_name": "Grok",
+      "model": "Grok 4",
+      "purpose": "Comparing with known concepts",
+      "prompt": "How is pairwise SVM different from the standard SVM that we studied in class?",
+      "llm_response_used": "Partially",
+      "how_it_helped": "It helped me relate the research idea to concepts I already knew from coursework.",
+      "student_verification": "I compared the explanation with my lecture notes and the paper’s results.",
+      "confidence_level": 4
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 5,
+      "prompt": "What are some assumptions, limitations, or situations where pairwise SVM might not work well?",
+      "why_important": "This helped me critically evaluate the method rather than just understanding its strengths."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 6,
+      "prompt": "How can I implement a simple version of pairwise SVM using scikit-learn so that it runs on a normal laptop?",
+      "why_important": "It directly supported planning for practical implementation."
+    },
+    {
+      "rank": 3,
+      "interaction_id": 4,
+      "prompt": "Can you explain balanced kernels in pairwise SVMs in a simple way so I can understand the main idea?",
+      "why_important": "This improved my conceptual understanding of the paper."
+    },
+    {
+      "rank": 4,
+      "interaction_id": 7,
+      "prompt": "How is pairwise SVM different from the standard SVM that we studied in class?",
+      "why_important": "It helped me connect research concepts with coursework knowledge."
+    },
+    {
+      "rank": 5,
+      "interaction_id": 3,
+      "prompt": "Will it be difficult to reproduce this method using only a laptop without GPU?",
+      "why_important": "This ensured the project was feasible within my available resources."
+    }
+  ],
+  "student_declaration": {
+    "statement": "I declare that this JSON file contains a complete and honest record of my LLM usage for Part A, and that I independently verified all information before using it.",
+    "understanding_acknowledged": true,
+    "signature": "Eranki Sai Vikas",
+    "date": "2026-03-01"
+  }
+}
