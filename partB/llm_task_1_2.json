@@ -1,0 +1,87 @@
+{
+  "student_metadata": {
+    "name": "Eranki Sai Vikas",
+    "roll_number": "230121",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination - Part B",
+    "task_tag": "task_1_2",
+    "submission_date": "2026-03-10"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-10",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Brainstorming assumptions to look for in the paper",
+      "prompt": "ok so for the brunner 2012 paper, the method assumes symmetry right - like f(a,b) = f(b,a). can u giv me an example of when this wld fail in real life",
+      "code_used_verbatim": false,
+      "student_modification": "I used this only as a starting checklist. Each assumption I wrote was then verified against the paper to confirm it actually applies to this specific method.",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Gave me a starting checklist of things to look for: PSD kernels, feature quality, class balance etc.",
+      "student_verification": "Each assumption was confirmed by finding the relevant theorem or section in Brunner et al. (2012).",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-10",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Understanding positive semi-definiteness for kernels",
+      "prompt": "for svm to work the kernel matrix shld be PSD right? what happens if its not - does the solver just crash or give wrong answer",
+      "code_used_verbatim": false,
+      "student_modification": "The explanation I wrote about Assumption 2 is my own. I used the LLM only to deepen my understanding of why PSD matters mathematically.",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Reinforced why Lemma 1 in the paper is necessary \u2014 without PSD, the SVM QP problem is not convex and may not converge.",
+      "student_verification": "Checked Lemma 1 in the paper and confirmed the connection.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-10",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Coming up with violation scenarios",
+      "prompt": "if training pairs are very imbalanced like way more negative pairs than positive ones, how does that affect svm? does the balanced kernel help or not",
+      "code_used_verbatim": false,
+      "student_modification": "The plagiarism detection example was suggested by the LLM. The medical scans example for Assumption 3 is my own. I modified and extended both.",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Gave me a concrete counterexample of an asymmetric task (plagiarism detection) that I adapted for Assumption 1.",
+      "student_verification": "Verified that the scenario genuinely breaks the symmetry requirement by thinking through it independently.",
+      "confidence_level": 4
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 3,
+      "prompt": "if training pairs are very imbalanced like way more negative pairs than positive ones, how does that affect svm? does the balanced kernel help or not",
+      "why_important": "clarified my understanding for assumption 3 violation scenerio"
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "for svm to work the kernel matrix shld be PSD right? what happens if its not - does the solver just crash or give wrong answer",
+      "why_important": "needed to understand the consequence clearly before writing assumption 2"
+    },
+    {
+      "rank": 3,
+      "interaction_id": 1,
+      "prompt": "ok so for the brunner 2012 paper, the method assumes symmetry right - like f(a,b) = f(b,a). can u giv me an example of when this wld fail in real life",
+      "why_important": "helped me think of a concrete violation scenerio for assumption 1"
+    }
+  ],
+  "student_declaration": {
+    "statement": "All written descriptions and code in task_1_2.ipynb are my own work. LLM was consulted only for conceptual clarification and brainstorming violation scenarios, not for generating explanations verbatim.",
+    "understanding_acknowledged": true,
+    "signature": "Eranki Sai Vikas",
+    "date": "2026-03-10"
+  }
+}

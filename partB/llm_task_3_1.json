@@ -1,0 +1,41 @@
+{
+  "student_metadata": {
+    "name": "Eranki Sai Vikas",
+    "roll_number": "230121",
+    "task_tag": "task_3_1",
+    "submission_date": "2026-03-12"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-12",
+      "purpose": "Deciding what to ablate",
+      "prompt": "in the brunner 2012 pairwise svm paper, what wld be the most interesting thing to remove in an ablation? like what component matters most",
+      "code_used_verbatim": false,
+      "student_modification": "I chose to ablate the cross-terms of K_DL independently, rather than following any specific LLM suggestion. The three-way comparison design is my own.",
+      "llm_response_used": "Partially",
+      "confidence_level": 4
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "in the brunner 2012 pairwise svm paper, what wld be the most interesting thing to remove in an ablation? like what component matters most",
+      "why_important": "helped me brainstorm before deciding to ablate the cross terms of K_DL"
+    }
+  ],
+  "student_declaration": {
+    "statement": "Ablation design, hypothesis, and code in task_3_1.ipynb are my own work.",
+    "understanding_acknowledged": true,
+    "signature": "Eranki Sai Vikas",
+    "date": "2026-03-12"
+  }
+}

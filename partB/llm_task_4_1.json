@@ -1,0 +1,57 @@
+{
+  "student_metadata": {
+    "name": "Eranki Sai Vikas",
+    "roll_number": "230121",
+    "task_tag": "task_4_1",
+    "submission_date": "2026-03-12"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-12",
+      "purpose": "Understanding what to include in a 4-page ML paper report",
+      "prompt": "what sections shld a 4 page latex report for ML paper reproduction have? like in what order",
+      "code_used_verbatim": false,
+      "student_modification": "I structured the report using the assignment's required sections (summary, architecture, evaluation, ablation, reflection). The actual writing is entirely mine.",
+      "llm_response_used": "Partially",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-12",
+      "purpose": "Help with LaTeX formatting",
+      "prompt": "how do i write the pairwise kernel equation K_DL in latex?? not sure abt the subscript formatting",
+      "code_used_verbatim": false,
+      "student_modification": "Basic LaTeX equation formatting. The math itself is from the paper.",
+      "llm_response_used": "Partially",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "what sections shld a 4 page latex report for ML paper reproduction have? like in what order",
+      "why_important": "helped me plan the report structure before writing"
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "how do i write the pairwise kernel equation K_DL in latex?? not sure abt the subscript formatting",
+      "why_important": "latex formatting help for the equations in my report"
+    }
+  ],
+  "student_declaration": {
+    "statement": "All written content in report.pdf is my own. LLM was used only for structure guidance and LaTeX formatting help.",
+    "understanding_acknowledged": true,
+    "signature": "Eranki Sai Vikas",
+    "date": "2026-03-12"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "student_metadata": {
+    "name": "Eranki Sai Vikas",
+    "roll_number": "230121",
+    "task_tag": "task_1_3",
+    "submission_date": "2026-03-10"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-10",
+      "purpose": "Understanding what a 'baseline' means in this paper",
+      "prompt": "what baselines wld u compare pairwise SVM against? like what wld be the standard comparison for a face verification task in 2012",
+      "code_used_verbatim": false,
+      "student_modification": "Used only to frame my thinking. I identified the two specific baselines (K_D and symmetric training set) by reading Section 3 and Table 1 of the paper.",
+      "llm_response_used": "Partially",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-10",
+      "purpose": "Thinking of scenarios where symmetric kernel fails",
+      "prompt": "Can you think of tasks where enforcing symmetry in a pairwise classifier would hurt performance?",
+      "code_used_verbatim": false,
+      "student_modification": "I came up with my own examples (plagiarism detection, template matching) based on this prompt's direction.",
+      "llm_response_used": "Partially",
+      "confidence_level": 4
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 2,
+      "prompt": "Can you think of tasks where enforcing symmetry would hurt performance?",
+      "why_important": "Helped me construct the 'when would paper's method NOT win' section."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 1,
+      "prompt": "what baselines wld u compare pairwise SVM against? like what wld be the standard comparison for a face verification task in 2012",
+      "why_important": "helped me identify the 2 baselines to write abt"
+    }
+  ],
+  "student_declaration": {
+    "statement": "All analysis in task_1_3.ipynb is my own. LLM provided conceptual direction only.",
+    "understanding_acknowledged": true,
+    "signature": "Eranki Sai Vikas",
+    "date": "2026-03-10"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "student_metadata": {
+    "name": "Eranki Sai Vikas",
+    "roll_number": "230121",
+    "task_tag": "task_3_2",
+    "submission_date": "2026-03-12"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-12",
+      "purpose": "Thinking about what to say in the critical reflection",
+      "prompt": "if ablation shows like partial accuracy drop not full drop, what does that tell us abt the removed component? is it partially redundant or smthng else",
+      "code_used_verbatim": false,
+      "student_modification": "I wrote the critical reflection entirely in my own words. The LLM helped me think through what the result 'means' at a conceptual level.",
+      "llm_response_used": "Partially",
+      "confidence_level": 4
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "if ablation shows like partial accuracy drop not full drop, what does that tell us abt the removed component? is it partially redundant or smthng else",
+      "why_important": "helped me interpret what the ablation result actually means"
+    }
+  ],
+  "student_declaration": {
+    "statement": "Ablation implementation, plots, and critical reflection in task_3_2.ipynb are my own work.",
+    "understanding_acknowledged": true,
+    "signature": "Eranki Sai Vikas",
+    "date": "2026-03-12"
+  }
+}

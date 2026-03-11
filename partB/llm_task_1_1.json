@@ -1,0 +1,87 @@
+{
+  "student_metadata": {
+    "name": "Eranki Sai Vikas",
+    "roll_number": "230121",
+    "course": "Advanced Machine Learning",
+    "exam": "Mid-Semester Examination - Part B",
+    "task_tag": "task_1_1",
+    "submission_date": "2026-03-10"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-10",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Understanding the structure of the paper's contribution",
+      "prompt": "hey can u explain what a pairwise kernel does differently from a normal svm kernel? like in simple terms",
+      "code_used_verbatim": false,
+      "student_modification": "I used this to get an intuitive understanding. My actual description of Steps 1-5 was written by me after reading the paper sections directly.",
+      "llm_response_used": "Partially",
+      "how_it_helped": "It helped me build a mental model of how pairs are handled differently from single data points in kernel methods.",
+      "student_verification": "Verified by reading Section 2 of the paper and checking Equations 4 and 5 directly.",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-10",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Clarifying what 'balanced kernel' means",
+      "prompt": "so in pairwise SVMs what does balanced or linearised kernel mean?? is it same as symmetric or smthng diff",
+      "code_used_verbatim": false,
+      "student_modification": "Used only to check my own understanding. The kernel equations I wrote in the markdown are directly from the paper (Section 3), not from the LLM.",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Confirmed my interpretation that balanced = symmetric in effect, via a different algebraic route.",
+      "student_verification": "Confirmed against Theorem 2 and Equations 6-9 in the paper.",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-10",
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "purpose": "Checking my code for computing pairwise kernel symmetry",
+      "prompt": "is my python code correct for computing K_DL and checking symmetry?? pasting below",
+      "code_used_verbatim": false,
+      "student_modification": "The code structure is entirely mine. I only verified that my formula matched the paper equation by asking this question.",
+      "llm_response_used": "Partially",
+      "how_it_helped": "Confirmed the math in my code was aligned with the paper's formula for K_DL.",
+      "student_verification": "Ran the code and confirmed outputs match expected symmetry property.",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "hey can u explain what a pairwise kernel does differently from a normal svm kernel? like in simple terms",
+      "why_important": "helped me get the intuition before reading the paper properly"
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "so in pairwise SVMs what does balanced or linearised kernel mean?? is it same as symmetric or smthng diff",
+      "why_important": "needed to clarify this before writing step 3 in my notebook"
+    },
+    {
+      "rank": 3,
+      "interaction_id": 3,
+      "prompt": "is my python code correct for computing K_DL and checking symmetry?? pasting below",
+      "why_important": "wanted to sanity check my formula before finalising the code cell"
+    }
+  ],
+  "student_declaration": {
+    "statement": "All written descriptions, markdown explanations, and code in task_1_1.ipynb are my own work. LLM was used only to clarify concepts and verify understanding, not to generate content directly.",
+    "understanding_acknowledged": true,
+    "signature": "Eranki Sai Vikas",
+    "date": "2026-03-10"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "student_metadata": {
+    "name": "Eranki Sai Vikas",
+    "roll_number": "230121",
+    "task_tag": "task_3_3",
+    "submission_date": "2026-03-12"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-12",
+      "purpose": "Brainstorming failure scenarios for pairwise SVMs",
+      "prompt": "what are realistic scenerois where pairwise svm for face verification wld fail? like not just theory but actual situations",
+      "code_used_verbatim": false,
+      "student_modification": "I chose the class imbalance failure mode independently after thinking about which one I could actually demonstrate with an experiment on the Olivetti dataset.",
+      "llm_response_used": "Partially",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-12",
+      "purpose": "Thinking of a concrete fix for the failure mode",
+      "prompt": "how do u fix a classifer that fails bcoz of class imbalance, is SMOTE or cost sensitive SVM better",
+      "code_used_verbatim": false,
+      "student_modification": "Both fixes (cost-sensitive SVM and SMOTE) came from my own knowledge. LLM only confirmed this direction was reasonable.",
+      "llm_response_used": "Partially",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "what are realistic scenerois where pairwise svm for face verification wld fail? like not just theory but actual situations",
+      "why_important": "starting point to pick a failure mode i cld actually demonstrate"
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "how do u fix a classifer that fails bcoz of class imbalance, is SMOTE or cost sensitive SVM better",
+      "why_important": "confirmed my proposed fixes were reasonable before writing them up"
+    }
+  ],
+  "student_declaration": {
+    "statement": "Failure mode selection, experiments, and fix suggestions in task_3_3.ipynb are my own work.",
+    "understanding_acknowledged": true,
+    "signature": "Eranki Sai Vikas",
+    "date": "2026-03-12"
+  }
+}

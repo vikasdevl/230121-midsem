@@ -1,0 +1,57 @@
+{
+  "student_metadata": {
+    "name": "Eranki Sai Vikas",
+    "roll_number": "230121",
+    "task_tag": "task_2_1",
+    "submission_date": "2026-03-11"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-11",
+      "purpose": "Choosing an appropriate toy dataset for face verification",
+      "prompt": "which sklearn dataset wld be best for reproducing a face verification pairwise SVM experiment? smthng small but still meaningful",
+      "code_used_verbatim": false,
+      "student_modification": "I made the final decision to use Olivetti faces after verifying it satisfies all assignment constraints (>=100 samples, >=2 features, same-person pairs possible).",
+      "llm_response_used": "Partially",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-11",
+      "purpose": "Deciding how to construct pairs",
+      "prompt": "How should I sample positive and negative pairs from a face dataset for a pairwise classification task?",
+      "code_used_verbatim": false,
+      "student_modification": "I wrote the build_pairs function myself based on this direction. The random sampling logic and balanced pair construction is my implementation.",
+      "llm_response_used": "Partially",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "which sklearn dataset wld be best for reproducing a face verification pairwise SVM experiment? smthng small but still meaningful",
+      "why_important": "helped me chose olivetti faces over other options"
+    },
+    {
+      "rank": 2,
+      "interaction_id": 2,
+      "prompt": "How should I sample positive and negative pairs?",
+      "why_important": "Helped me think through the pair construction logic for Task 2.1."
+    }
+  ],
+  "student_declaration": {
+    "statement": "Dataset justification and pair construction code are my own work.",
+    "understanding_acknowledged": true,
+    "signature": "Eranki Sai Vikas",
+    "date": "2026-03-11"
+  }
+}

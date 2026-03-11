@@ -1,0 +1,57 @@
+{
+  "student_metadata": {
+    "name": "Eranki Sai Vikas",
+    "roll_number": "230121",
+    "task_tag": "task_2_3",
+    "submission_date": "2026-03-11"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-11",
+      "purpose": "Understanding Equal Error Rate metric",
+      "prompt": "how shld i calculate the reproducbility metrics like what numbers shld i report to show my results match the paper",
+      "code_used_verbatim": false,
+      "student_modification": "Used to understand the paper's metric. I decided to report Accuracy and AUC instead of EER since computing EER requires continuous score calibration.",
+      "llm_response_used": "Partially",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-11",
+      "purpose": "Thinking through why my numbers differ from the paper",
+      "prompt": "What are the main reasons a toy reproduction on Olivetti faces would give different absolute numbers than a large scale result on LFW?",
+      "code_used_verbatim": false,
+      "student_modification": "The 4 reasons I listed in the gap explanation are from my own analysis. The LLM prompt helped me start thinking but all writing is mine.",
+      "llm_response_used": "Partially",
+      "confidence_level": 4
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 2,
+      "prompt": "Why would toy reproduction numbers differ from large-scale results?",
+      "why_important": "Helped me structure the gap explanation section."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 1,
+      "prompt": "how shld i calculate the reproducbility metrics like what numbers shld i report to show my results match the paper",
+      "why_important": "needed guidance on what to put in the checklist"
+    }
+  ],
+  "student_declaration": {
+    "statement": "All analysis, visualizations, and reproducibility checklist in task_2_3.ipynb are my own work.",
+    "understanding_acknowledged": true,
+    "signature": "Eranki Sai Vikas",
+    "date": "2026-03-11"
+  }
+}

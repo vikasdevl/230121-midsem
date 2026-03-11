@@ -1,0 +1,41 @@
+{
+  "student_metadata": {
+    "name": "Eranki Sai Vikas",
+    "roll_number": "230121",
+    "task_tag": "task_4_2",
+    "submission_date": "2026-03-12"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-12",
+      "purpose": "Understanding what the LLM usage JSON should contain",
+      "prompt": "what fields shld i include in a LLM usage disclosure JSON for a uni assignment? just wanna make sure im not missing anything",
+      "code_used_verbatim": false,
+      "student_modification": "The JSON structure I used was based on Part A's format. I extended it with the new required fields (task_tag, code_used_verbatim, student_modification) as specified in the Part B instructions.",
+      "llm_response_used": "No",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 1,
+      "prompt": "what fields shld i include in a LLM usage disclosure JSON for a uni assignment? just wanna make sure im not missing anything",
+      "why_important": "double checked my json format was complete"
+    }
+  ],
+  "student_declaration": {
+    "statement": "All LLM disclosure JSONs across all tasks represent honest and accurate records of how I used LLM tools in Part B.",
+    "understanding_acknowledged": true,
+    "signature": "Eranki Sai Vikas",
+    "date": "2026-03-12"
+  }
+}

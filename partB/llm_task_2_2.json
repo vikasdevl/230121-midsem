@@ -1,0 +1,73 @@
+{
+  "student_metadata": {
+    "name": "Eranki Sai Vikas",
+    "roll_number": "230121",
+    "task_tag": "task_2_2",
+    "submission_date": "2026-03-11"
+  },
+  "llm_tools_used": [
+    {
+      "tool_name": "ChatGPT",
+      "model": "GPT-5",
+      "provider": "OpenAI"
+    }
+  ],
+  "full_llm_interaction_log": [
+    {
+      "interaction_id": 1,
+      "date": "2026-03-11",
+      "purpose": "Checking how to pass a precomputed kernel to sklearn SVC",
+      "prompt": "how do i implement K_DL from the brunner 2012 paper in python using sklearn? the formula is k(a,c) + k(b,d) - k(a,d) - k(b,c)",
+      "code_used_verbatim": false,
+      "student_modification": "I looked up sklearn docs myself to verify. The kernel='precomputed' usage and passing K_train/K_test matrices is my own implementation.",
+      "llm_response_used": "Partially",
+      "confidence_level": 5
+    },
+    {
+      "interaction_id": 2,
+      "date": "2026-03-11",
+      "purpose": "Understanding gamma for RBF kernel on PCA features",
+      "prompt": "my svm is giving weird accuracy like 100% on train but 50% on test, is this overfitting or smthng wrong with my kernel matrix?",
+      "code_used_verbatim": false,
+      "student_modification": "Used as a starting point estimate. I manually tuned gamma=0.01 based on observing cross-validated accuracy.",
+      "llm_response_used": "Partially",
+      "confidence_level": 4
+    },
+    {
+      "interaction_id": 3,
+      "date": "2026-03-11",
+      "purpose": "Verifying K_DL formula before implementing",
+      "prompt": "Can you write out the K_DL formula from Brunner 2012 so I can double check my implementation?",
+      "code_used_verbatim": false,
+      "student_modification": "I used this only to sanity-check my reading of Equation (6). The code I wrote is entirely mine.",
+      "llm_response_used": "Partially",
+      "confidence_level": 5
+    }
+  ],
+  "top_5_prompts": [
+    {
+      "rank": 1,
+      "interaction_id": 3,
+      "prompt": "Write out the K_DL formula from Brunner 2012",
+      "why_important": "Helped confirm I was implementing the right equation."
+    },
+    {
+      "rank": 2,
+      "interaction_id": 1,
+      "prompt": "how do i implement K_DL from the brunner 2012 paper in python using sklearn? the formula is k(a,c) + k(b,d) - k(a,d) - k(b,c)",
+      "why_important": "main implementation question - helped me structure the precomputed kernel approach"
+    },
+    {
+      "rank": 3,
+      "interaction_id": 2,
+      "prompt": "my svm is giving weird accuracy like 100% on train but 50% on test, is this overfitting or smthng wrong with my kernel matrix?",
+      "why_important": "debugging help when my initial results looked off"
+    }
+  ],
+  "student_declaration": {
+    "statement": "The K_DL and K_D implementations and all SVM training code in task_2_2.ipynb are my own. LLM only helped with API lookup and formula verification.",
+    "understanding_acknowledged": true,
+    "signature": "Eranki Sai Vikas",
+    "date": "2026-03-11"
+  }
+}
